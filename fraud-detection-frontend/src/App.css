@@ -1,4 +1,6 @@
 /* Base Styles */
+@import "tailwindcss";
+
 .app-container {
   max-width: 1200px;
   margin: 0 auto;
