@@ -13,7 +13,7 @@ const provider = new ethers.JsonRpcProvider(process.env.RPC_URL, {
   });
   
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
-
+// new updates will start from here 
 // Contract ABI (copy from Remix)
 const abi = [
 	{
